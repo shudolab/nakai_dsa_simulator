@@ -1,8 +1,11 @@
 .vscode
 a.out
+dsa_ex
 # 1mディレクトリ以下のファイルを全て無視🐛（1mは追跡）
 1m/*
 !1m/.gitkeep
+1m_simple/*
+!1m_simple/.gitkeep
 # 10kディレクトリ以下のファイルを全て無視🐛（10kは追跡）
 10k/*
 !10k/.gitkeep
